@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.logInCard {
+    height: 75vh;
+    width: 50vw;
+    background-color: #FFFFFF;
+    border: solid .2vw #191511;
+    position: absolute;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beerImgCard {
+    height: 25vw;
+    width: 20vw;
+}
+
+.beerIcon {
+    height: 10vh;
+    width: 8vw;
+    color: #F4BB44;
+}
+
+.loginForm {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.loginInput {
+    height: 7vh;
+    width: 40vw;
+}
+
+#loginLabel {
+    font-family: Montserrat;
+    color: #483C32;
+}
+
+.signIn-h3 {
+    font-family: Montserrat;
+    color: #483C32;
+}
+
+.linkToSignup {
+    align-self: center;
+    font-size: 1vw;
+}
+
+.loginBtn {
+    font-size: 1.25vw;
+    font-family: Montserrat;
+    height: 7vh;
+    width: 40vw;
+    background-color: #F4BB44;
+    /* border: solid .25vw #F4BB44; */
+    border-radius: .5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #483C32;
+}
+
+.loginBtn:hover {
+    background-color: #dd9a0d;
+    transition: ease .25s;
+}

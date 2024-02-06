@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Quicksand&display=swap');
+
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+    position: sticky;
+    background-color: #F4BB44;
+    top: 0;
+    z-index: 1001;
+}
+
+.navBar {
+    display: flex;
+    gap: 8vw;
+}
+
+.navLeft {
+    margin-left: 6vw;
+}
+
+.navRight {
+    margin-right: 6vw;
+}
+
+#link {
+    color: #483C32;
+    font-size: 1.5vw;
+    font-family: Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoLink {
+    color: 	#483C32;
+    font-size: 3vw;
+    font-weight: 900;
+    font-family: Quicksand;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link:hover {
+    color: white ;
+    transition: ease .25s;
+}
