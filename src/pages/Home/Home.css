@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
 .Home {
-    height: 100vh;
+    /* height: 88vh; */
     width: 100vw;
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.recentPubsContainer {
+    width: 96vw;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 4vw;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.pubCard {
+    height: 35vh;
+    width: 18vw;
+    background-color: white;
+    border: solid .15vw black;
+    border-radius: 2vh;
+}
+
+.pubCard:hover {
+    transform: scale(1.05);
+    transition: ease .3s;
+}
+
+.recentPubsH1 {
+    padding: 12vh 0 4vh 2vw;
+    font-family: Raleway;
+    font-size: 1.75vw;
+    font-weight: 900;
+    align-self: flex-start;
 }

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+.aboutMain {
+    height: 88vh;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    background-color: #EADDCA;
+}
+
+.aboutSecondary {
+    height: 88vh;
+}
+
+.aboutH1 {
+    grid-row-start: 2;
+    padding: 0 0 0 5vw;
+    font-family: Raleway;
+    font-size: 3.5vw;
+    font-weight: 900;
+    color: black;
+}
+
+.aboutP {
+    grid-area: 1 / 2 / 3 / 4;
+    padding: 4vw 4vw 4vw 0;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 1.5vw;
+}

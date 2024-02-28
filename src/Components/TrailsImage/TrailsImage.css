@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+.trailsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 1vh;
+    border: solid .2vw black;
+    font-size: 1.75vw;
+    font-family: Raleway;
+    font-weight: 900;
+}
+
+.trailsBtn:hover {
+    border: .2vw solid #F4BB44;
+    transition: ease .3s;
+}
